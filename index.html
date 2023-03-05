@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <title>Splide</title>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <link rel="stylesheet" href= "https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/themes/splide-sea-green.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+
+    <article class="flex1">
+        <nav class="nav1"> <img class="bild1" src="LogoSun.png" alt=""></nav>
+    </article>
+
+    <article class="flex2">
+        <img src="icon-bag.svg" alt="">
+    </article>
+
+    <article class="flex3">
+
+        <h1 class="Adress">Adress</h1>
+        <p class="Svea">Sveavägen 8b <br> Stockholm</p>
+
+    </article>
+
+    <article class="flex4">
+        <h1 class="kontakt">Kontakt</h1>
+        <p> <a class="mail" href="#">Sunglasses@hotmail.com</a> <br> <a class="nummer" href="#"> 08-12 31 23 </a></p>
+    </article>
+
+    <article class="flex5">
+        <ul>
+             <li> <a class="Meny" href="#">Meny</a></li>
+        </ul>
+        <ul>
+             <li> <a class="Meny" href="#">Min sida</a></li>
+
+        </ul>
+        <ul>
+            <li> <a class="Meny" href="#">Sök</a> </li>
+        </ul>
+
+      </article>
+
+
+    <article class="flex6">
+         <button>Köp</button>
+    </article>
+
+    <article class="flex7">
+        <h1 class="Sociala">Sociala Medier</h1>
+        <p> <a class="Facebook" href="#">Facebook</a> <br> <a class="Instagram" href="#">Instagram</a></p>
+       
+            
+    </article>
+
+    <div class="splide">
+        <div class="splide__track">
+              <ul class="splide__list">
+                  <li class="splide__slide">
+                    <img src="solglasögonProject.jpg" alt="berg">
+                  </li>
+                  <li class="splide__slide">
+                    <img src="solglasögonProject2.jpg" alt="human">
+                  </li>
+                  <li class="splide__slide">
+                    <img src="SolglasögonProject3.jpg" alt="">
+                  </li>
+              </ul>
+        </div>
+      </div>
+
+
+
+
+
+
+  <script>
+    // DOM Script init
+    new Splide( '.splide',{
+        speed: 3000,
+        type: 'loop',
+        
+
+    }).mount();
+  </script>
+
+
+
+    
+</body>
+</html>
